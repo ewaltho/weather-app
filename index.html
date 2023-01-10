@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Nanum+Gothic&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    
+    <title>Weather Search</title>
+</head>
+
+<body>
+    <header>
+        <h1>Live Weather Update</h1>
+        <form>
+            <input class="input" type="text" placeholder="Enter your city..." name="search">
+            <button class="goBtn" type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </header>
+
+    <main>
+        <section class="weather-status">
+            <h3 id="city"></h3>
+            <h3 id="temperature">Temperature</h3>
+            <h3 id="wind">Wind Speed:</h3>
+            <h3 id="humidty">Humidity:</h3>
+        </section>
+    
+        <section class="searchHistory">
+            <h3>Search History:</h3>
+            <ul id="history-list">
+                <!--create buttons in js to fill search bar. button contents will be previously searched contents-->
+            </ul>
+        </section>
+        
+        <div class="title hide">
+            <h2 id="forecastTitle">5-Day Forecast:</h2>
+        </div>
+        
+        <section class="results hide">
+            <div class="day day-1">
+                <h3 class="weekday"></h3>
+                <img class="weatherStatus" src="">
+                <p class="day1Temp dayTemp"></p>
+                <p class="day1Status dayStatus"></p>
+            </div>
+
+            <div class="day day-2">
+                <h3 class="weekday"></h3>
+                <img class="weatherStatus" src="">
+                <p class="day1Temp dayTemp"></p>
+                <p class="day1Status dayStatus"></p>
+            </div>
+
+            <div class="day day-3">
+                <h3 class="weekday"></h3>
+                <img class="weatherStatus" src="">
+                <p class="day1Temp dayTemp"></p>
+                <p class="day1Status dayStatus"></p>
+            </div>
+
+            <div class="day day-4">
+                <h3 class="weekday"></h3>
+                <img class="weatherStatus" src="">
+                <p class="day1Temp dayTemp"></p>
+                <p class="day1Status dayStatus"></p>
+            </div>
+
+            <div class="day day-5">
+                <h3 class="weekday"></h3>
+                <img class="weatherStatus" src="">
+                <p class="day1Temp dayTemp"></p>
+                <p class="day1Status dayStatus"></p>
+            </div>
+
+        </section>
+    </main>
+    
+    <script src="./assets/script.js"></script>
+</body>
+</html>

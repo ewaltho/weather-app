@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    font-family:'Comfortaa', cursive;
+    /* background: aliceblue; */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    overflow: hidden;
+    background-color: rgb(221, 244, 246);
+    padding: 10px;
+  }
+
+header h1{
+    float: right;
+    font-size: 23px;
+    margin-right: 60px;
+    color:#474350
+}
+
+
+header input[type=text] {
+    text-align: center;
+    padding: 15px;
+    width: 40%;
+    border: none;
+    font-size: 17px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(172, 171, 171);
+    margin-left: 50px;
+    transition: 0.3s;
+}
+
+header input[type=text]:hover {
+    background:rgb(241, 239, 233);
+}
+
+header button {
+    border: none;
+    margin: 10px;
+    padding: 15px;
+    background: darkslategrey;
+    color: rgb(221, 244, 246);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.weather-status {
+    padding: 10px;
+    margin: 30px;
+    float: left;
+    width: 64%;
+    border-radius: 20px;
+    background: rgb(47, 53, 79);
+    color: rgb(221, 244, 246);
+}
+
+.weather-status h3 {
+    margin-left: 20px;
+}
+
+#city {
+    font-size: 30px;
+}
+
+.searchHistory {
+    padding: 10px;
+    margin: 30px;
+    float: right;
+    width: 28%;
+    border-radius: 20px;
+    background: rgb(47, 53, 79);
+    color: rgb(221, 244, 246);
+}
+
+.searchHistory h3 {
+    margin-left: 50px;
+}
+
+.searchHistory button {
+    background: lightcyan;
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    margin: 10px;
+    border-radius: 20px;
+    width: 28%;
+    border: none;
+    transition: 0.3s;
+}
+
+.results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    float: left;
+}
+
+.day {
+    width: 200px;
+    background: rgb(47, 53, 79);
+    color: rgb(221, 244, 246);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    height: 100%;
+}
+
+button:hover {
+    background: rgb(111, 189, 214);
+    color: #474350;
+  }
+
+.title {
+    margin-left: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.day img {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.weekday {
+    background: honeydew;
+    color: #474350;
+    border-radius: 20px;
+    padding: 5px;
+    width: 80%;
+}
+
+.day .dayTemp{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.hide {
+    display: none;
+}
