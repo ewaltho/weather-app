@@ -139,6 +139,7 @@ button:hover {
     border-radius: 20px;
     padding: 5px;
     width: 80%;
+    text-align: center;
 }
 
 .day .dayTemp{
@@ -146,6 +147,11 @@ button:hover {
     margin-left: 10px;
 }
 
-.hide {
-    display: none;
+.day .dayStatus{
+    font-size: 20px;
+    margin-left: 10px;
 }
+
+/* .hide {
+    display: none;
+} */

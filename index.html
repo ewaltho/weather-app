@@ -16,8 +16,8 @@
     <header>
         <h1>Live Weather Update</h1>
         <form>
-            <input class="input" type="text" placeholder="Enter your city..." name="search">
-            <button class="goBtn" type="submit"><i class="fa fa-search"></i></button>
+            <input id="input" type="text" placeholder="Enter your city..." name="search">
+            <button class="goBtn" type="submit">Go</button>
         </form>
     </header>
 
@@ -36,23 +36,23 @@
             </ul>
         </section>
         
-        <div class="title hide">
+        <div id="hidden" class="title hide">
             <h2 id="forecastTitle">5-Day Forecast:</h2>
         </div>
         
-        <section class="results hide">
+        <section id="hidden" class="results hide">
             <div class="day day-1">
-                <h3 class="weekday"></h3>
+                <h3 class="weekday">1/11</h3>
                 <img class="weatherStatus" src="">
-                <p class="day1Temp dayTemp"></p>
-                <p class="day1Status dayStatus"></p>
+                <p class="day1Temp dayTemp">52</p>
+                <p class="day1Status dayStatus">Rainy</p>
             </div>
 
             <div class="day day-2">
-                <h3 class="weekday"></h3>
+                <h3 class="weekday">1/12</h3>
                 <img class="weatherStatus" src="">
-                <p class="day1Temp dayTemp"></p>
-                <p class="day1Status dayStatus"></p>
+                <p class="day1Temp dayTemp">48</p>
+                <p class="day1Status dayStatus">Cloudy</p>
             </div>
 
             <div class="day day-3">
