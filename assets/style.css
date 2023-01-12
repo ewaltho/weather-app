@@ -6,17 +6,18 @@ body {
     margin: 0;
     padding:0;
     font-family:'Comfortaa', cursive;
-    /* background: aliceblue; */
+    background: aliceblue;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
+    /* flex-direction: column; */
 }
 
 header {
     overflow: hidden;
-    background-color: rgb(221, 244, 246);
+    background-color: rgb(196, 234, 238);
     padding: 10px;
   }
 
@@ -26,7 +27,6 @@ header h1{
     margin-right: 60px;
     color:#474350
 }
-
 
 header input[type=text] {
     text-align: center;
@@ -54,8 +54,10 @@ header button {
     transition: 0.3s;
 }
 
-.weather-status {
-    padding: 10px;
+.weatherStatus {
+    font-size: 20px;
+    padding: 20px;
+    padding-left: 50px;
     margin: 30px;
     float: left;
     width: 64%;
@@ -152,6 +154,6 @@ button:hover {
     margin-left: 10px;
 }
 
-/* .hide {
+.hide {
     display: none;
-} */
+}
