@@ -37,6 +37,8 @@ goBtn.addEventListener('click', function(event){
             temperature.textContent = 'Temperature: ' + roundedTemp
             humidity.textContent = 'Humidity: ' + data.list[0].main.humidity;
             wind.textContent = 'Wind Speed: ' + roundedWind;
+        
+        //create buttons for search history doing createElement and assign the value to be cityNameSearch variable
             
             for (var i = 0; i < 5; i++) {
                 // var iconEl = document.querySelector('.statusIcon').src
